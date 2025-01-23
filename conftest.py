@@ -22,9 +22,9 @@ def registration_data():
 @pytest.fixture(scope="function")
 def basic_info_data():
     return {
-        "image_file": "F:/Playwright/Project/Tests/Files/Image.jpg",
-        "cv_file": "F:/Playwright/Project/Tests/Files/CV.pdf",
-        "signature_file": "F:/Playwright/Project/Tests/Files/Sign.png",
+        "image_file": "F:/SEBL Info Automation/Tests/Files/Image.jpg",
+        "cv_file": "F:/SEBL Info Automation/Tests/Files/CV.pdf",
+        "signature_file": "F:/SEBL Info Automation/Tests/Files/Sign.png",
         "career_summary": "Ambitious Driven",
         "first_name": "Tamim Iqbal",
         "last_name": "Iqbal Khan",
@@ -41,7 +41,7 @@ def basic_info_data():
         "nid_number": "4040404040400",
         "blood_group_id": "4",
         "phone_number": "01732175344",
-        "freedom_fighter_file": "F:/Playwright/Project/Tests/Files/CV.pdf",
+        "freedom_fighter_file": "F:/SEBL Info Automation/Tests/Files/CV.pdf",
         "permanent_address": {
             "country": "Bangladesh",
             "division": "Barisal",
@@ -93,14 +93,14 @@ def education_info_data():
         "grade": "3.73",  
         "out_of": "4.00",  
         "year": "2025" ,
-        "file_path": "F:/Playwright/Project/Tests/Files/file.pdf"
+        "file_path": "F:/SEBL Info Automation/Tests/Files/file.pdf"
     }
 
 # Reference information
 @pytest.fixture(scope="function")
 def reference_data():
     return {
-        "name": "Hejol Vaia",
+        "name": "Rubaiat Ahmed",
         "designation": "Lead QA",
         "institute_name": "REDDOT",
         "location": "Gulshan",
@@ -128,7 +128,7 @@ def certificate_data():
         "passing_year":"2024",                   
         "month_value":"3", 
         "label":'April 15,',
-        "file_path":"F:/Playwright/Project/Tests/Files/2mb.pdf"  
+        "file_path":"F:/SEBL Info Automation/Tests/Files/2mb.pdf"  
     }   
 
           
